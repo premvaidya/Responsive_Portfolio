@@ -257,7 +257,7 @@ body{
     margin: 0px;
     padding: 0px;
     text-align: center;
-    color: #000000;
+    color: #000000df;
 }
 .Programmer{
     font-family: cursive;
@@ -295,6 +295,9 @@ body{
 .instagram, .gmail{
   color: #6454c9;
 }
+.instagram{
+  padding-right: 50px;
+}
 .instagram:hover {
   color: none;
   text-decoration: none;
@@ -312,17 +315,23 @@ body{
   font-family: 'Surprisedmonkey', sans-serif;
 }
 .my_intro_cards{
-  margin: 2vh;
+  margin: 1vh;
 }
 .paragrap_of_intro{
   font-family: 'Plush-Trial', sans-serif;                                          
 }
 .myname{
-  border: solid;
-  color: #000;
+  color: #0b598d;
   padding: 2px;
-  border-top-left-radius: 20px;
+  border: solid;
+  border-left: 0px;
   border-top-right-radius: 0px;
+  border-top-left-radius: 20px;
   border-bottom-left-radius:20px;
   border-bottom-right-radius: 20px;
+}
+.line{
+  height: 3px;
+  width: 100%;
+  background-color: #000;
 }
