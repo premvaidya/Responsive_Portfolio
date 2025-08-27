@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <div class="main">
+        <div class="section-portfolio">
+            <h1 class="name-portfolio">Portfolio</h1>
+            <div class="word">
+                <p class="Programmer">Programmer</p>
+                <!--   <p class="of">of</p> -->
+            </div>
+            <div class="cat">                                   <!--  https://alvaromontoro.com/blog/68080/css-art-drawing-a-black-cat      --->
+                <article role="img" aria-labelledby="alt">
+                <div class="shadow"></div>
+                <div class="tail"></div>
+                <div class="body">
+                    <div class="leg"></div>
+                    <div class="leg"></div>
+                    <div class="paw"></div>
+                    <div class="paw"></div>
+                </div>
+                <div class="head">
+                    <div class="ear"></div>
+                    <div class="ear"></div>
+                    <div class="face">
+                    <div class="whisker"></div>
+                    <div class="whisker"></div>
+                    <div class="whisker"></div>
+                    <div class="whisker"></div>
+                    <div class="eye"></div>
+                    <div class="eye"></div>
+                    <div class="nose"></div>
+                    </div>
+                </div>
+                </article>
+            </div>
+        </div>
+        <div class="contact_card">
+            <div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row"> <!-- Responsive variations also exist for flex-direction -->
+                    <div class="contact ml-1 ml-sm-1 ml-md-5 ml-lg-5 ml-xl-5 ml-xxl-5">Contact</div>
+                    <div class="ml-1 ml-sm-1 ml-md-auto ml-lg-auto ml-xl-auto ml-xxl-auto"><a class="gmail" href="mailto:premvaidya0@gmail.com">premvaidya0@gmail.com</a></div>
+                    <div class="ml-1 ml-sm-1 ml-md-auto ml-lg-auto ml-xl-auto ml-xxl-auto"><a class="instagram" href="https://www.instagram.com/saranshvaidya_prem/">IG:saranshvaidya_prem</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="container my_intro_cards">
+        <div class="row">
+            <div class="me  col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <img class="its_me"src="image/it's_me.jpg">
+            </div>
+            <div class="its_my_pront col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                <h1 class="heading_of_paragrap">It's Me</h1>
+                <p class="paragrap_of_intro ">
+                    Hey. Buddy to meet you!
+                    <br>My name is Saransh Vaidya, you can call me  <a class="myname"> Saransh</a> 
+                    <br>I'm a young Boy who is trying to create things. I'm Programmer live in Nagpur City and pass out from WCEM Nagpur.
+                    <br>To me, it's more than intrenship, it's make every effort to excel in all tasks assigend to me by the company.
+                    <br>
+                    <br>My objective is to challenge myself in new environments and fields to develop, enhance my skill and fully dedicate myself to creativity.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function display(sectionId) {
+    // Hide all sections with ids starting with 'section-'
+    document.querySelectorAll('[id^="section-"]').forEach(section => {
+      section.style.display = 'none';
+    });
+    // Show the selected section
+    const selectedSection = document.getElementById(sectionId);
+    if (selectedSection) {
+      selectedSection.style.display = 'block';
+    }
+  }
+
+  // Optionally, initialize by showing just the home section
+  display('section-home');
+</script>
+  </body>
+</html>
