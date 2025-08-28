@@ -290,6 +290,7 @@ body{
     font-size: 120%;
     font-weight: bold;
     padding-left: 11px;
+    padding-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 .instagram, .gmail{
@@ -306,6 +307,10 @@ body{
   color: none;
   text-decoration: none;
 }
+.me{
+  /*background-color: red;   test  */ 
+  text-align: center;
+}
 .its_me{
   mix-blend-mode: multiply;
   height: 30vh;
@@ -315,7 +320,8 @@ body{
   font-family: 'Surprisedmonkey', sans-serif;
 }
 .my_intro_cards{
-  margin: 1vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 .paragrap_of_intro{
   font-family: 'Plush-Trial', sans-serif;                                          
@@ -332,6 +338,59 @@ body{
 }
 .line{
   height: 3px;
-  width: 100%;
+  width: 98vw;
   background-color: #000;
+}
+.my_details_card1{
+  border-radius: 2px;
+  border-left: 2px #6454c9 dashed;
+  border-right: 2px #6454c9 dashed;
+  height: auto;
+  width: 50vw;
+}
+.contact_box_name{
+  margin-top: 2vw;
+  margin-left: 6vw;
+}
+.contact_inside_box{
+  margin-top: 2vw;
+  margin-left: 8vw;
+}
+.my_details_card2{
+  border-radius: 2px;
+  border-right: 2px #6454c9 dashed;
+  border-left: 2px #6454c9 dashed;
+  height: auto;
+  width: 50vw;
+} 
+.icons_of_box{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.year{
+  margin-right: 1vw;
+  color: #6858d4d5;
+  font-weight: bold;
+}
+.skill{
+  mix-blend-mode: multiply;
+  margin-left: 7vw;
+  height: 25vh;
+}
+.experience_box_name{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.experience_box_icons{
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #6858d4d5;
+  font-weight: bold;
+}
+.company_name{
+  padding-left: 20px;
+}
+.company_work{
+  font-weight: 200;
+  padding-left: 20px;
 }
